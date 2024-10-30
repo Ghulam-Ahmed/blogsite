@@ -5,7 +5,7 @@ export default function ColorChanger() {
 
   const changeColor = () => {
     // Change color to a new one
-    setColor(color === "black" ? "#FF7F50" : "black");
+    setColor(color === "black" ? "blue" : "black");
   };
 
   return (
