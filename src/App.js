@@ -1,16 +1,24 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/header";
+import Navbar from "./components/header";
 import Footer from "./components/footer";
-import Todos from "./components/Todos";
-import Todo from "./components/todo";
+import Blog from "./components/Blog";
+import About from "./components/About";
+import TechShekk from "./components/TechShekk";
 
 const App = () => {
   return (
     <>
-      <Header  title="MyList"/>
-      <Todos />
-      <Todo />
+      <Navbar
+        title={<span style={{ fontWeight: "bold" }}>TechShekk</span>}
+        Home="Technologies"
+        Blog="Blogs"
+        Categories="Cyber-Security"
+      />
+
+      <TechShekk />
+      <Blog />
+      <About />
       <Footer />
     </>
   );
