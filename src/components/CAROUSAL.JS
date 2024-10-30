@@ -1,8 +1,8 @@
 import React from "react";
-import Css from "../App.css"
-import Slide1 from "../images/slide1.jpg"
-import Slide2 from "../images/slide2.jpg"
-import Slide3 from "../images/slide3.jpg"
+import Css from "../App.css";
+import Slide1 from "../images/slide3.jpg";
+import Slide2 from "../images/slide2.jpg";
+import Slide3 from "../images/slide3.jpg";
 
 export default function Carousel() {
   return (

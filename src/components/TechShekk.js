@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
-export default function TechShekk() {
+export default function ColorChanger() {
+  const [color, setColor] = useState("#FFD700"); // Initial color is black
+
+  const changeColor = () => {
+    // Change color to a new one
+    setColor(color === "black" ? "#FF7F50" : "black");
+  };
+
   return (
-    <>
-      <h1>TECHNOLOGY AT YOUR FINGER TIPS</h1>;
-    </>
+    <div>
+      <h1 style={{ color: color }}>This is a color-changing H1 tag</h1>
+      <button className="btn btn-primary" onClick={changeColor}>Change Color</button>
+    </div>
   );
 }
