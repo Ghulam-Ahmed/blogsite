@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function TechShekk(props) {
+export default function TechShekk() {
   return (
-    <div>
-      <h1>{props.title}</h1>
-    </div>
+    <>
+      <h1>TECHNOLOGY AT YOUR FINGER TIPS</h1>;
+    </>
   );
 }

@@ -1,21 +1,21 @@
 import React from "react";
+import Css from "../App.css"
+import Slide1 from "../images/slide1.jpg"
+import Slide2 from "../images/slide2.jpg"
+import Slide3 from "../images/slide3.jpg"
 
-export default function CAROUSAL() {
+export default function Carousel() {
   return (
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="./src/images/slide1.jpg"
-            class="d-block w-100"
-            alt="technology"
-          />
+          <img src={Slide1} class="d-block w-100" alt="technology" />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src={Slide2} class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="..." />
+          <img src={Slide3} class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
