@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/footer";
+import Footer from "./components/footer"; // Ensure this is capitalized
 import Blog from "./components/Blog";
 import About from "./components/About";
 import TechShekk from "./components/TechShekk";
@@ -26,8 +26,9 @@ const App = () => {
             </>
           }
         />
-        <Route path="/Blog" element={<Blog />} /> {/* Blog route */}
+        <Route path="/blog" element={<Blog />} /> {/* Blog route */}
         <Route path="/about" element={<About />} />
+        {/* Additional routes can be added here if necessary */}
       </Routes>
 
       <Footer />
