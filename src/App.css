@@ -83,3 +83,27 @@
   border-radius: 8px; /* Optional: rounded edges */
   padding: 10px; /* Adds space around images */
 }
+/* In your CSS file */
+
+.blog-card img, .blog-content img {
+  width: 100%; /* Adjust this as needed */
+  max-width: 300px; /* Ensures a consistent size */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Crops image if necessary to fill the area */
+}
+
+/* Global dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Optional: Specific styles for dark mode */
+.dark-mode .navbar {
+  background-color: #333333;
+}
+
+.dark-mode .navbar a {
+  color: #ffffff;
+}
+

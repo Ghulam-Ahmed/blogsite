@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
@@ -6,8 +6,11 @@ export default function Navbar(props) {
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => !prevMode);
-    document.body.classList.toggle("dark-mode", !darkMode);
   };
+
+  useEffect(() => {
+    document.body.classList.toggle("dark-mode", darkMode);
+  }, [darkMode]);
 
   return (
     <nav
