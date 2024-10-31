@@ -2,7 +2,8 @@ const blogData = [
   {
     id: 1,
     title: "Gadgets",
-    summary: "Some quick example text to build on the card title...",
+    summary:
+      "Tech gadgets are very useful and have become important for mankind",
     content: "This is the full content for the Gadgets blog post.",
     image: require("../images/logimg1.jpg"),
   },
@@ -20,6 +21,28 @@ const blogData = [
     content: "This is the full content for the Tech Innovations blog post.",
     image: require("../images/blogimg3.jpg"),
   },
+  {
+    id: 3,
+    title: "Emerging AI",
+    summary: "Some quick example text to build on the card title...",
+    content: "This is the full content for the Tech Innovations blog post.",
+    image: require("../images/blogimg4.jpg"),
+  },
+  {
+    id: 3,
+    title: "Natural Language Preprocessing",
+    summary: "Some quick example text to build on the card title...",
+    content: "This is the full content for the Tech Innovations blog post.",
+    image: require("../images/blogimg5.jpg"),
+  },
+  {
+    id: 3,
+    title: "Machine Learning",
+    summary: "Some quick example text to build on the card title...",
+    content: "This is the full content for the Tech Innovations blog post.",
+    image: require("../images/blogimg6.jpg"),
+  },
+
   // Add more blog objects here as needed
 ];
 
