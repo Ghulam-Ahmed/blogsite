@@ -10,14 +10,14 @@ const blogData = [
   {
     id: 2,
     title: "Future of AI",
-    summary: "Some quick example text to build on the card title...",
+    summary: "Future of Ai or i say Control of Ai in every field is Approaching",
     content: "This is the full content for the Future of AI blog post.",
     image: require("../images/blogimg2.jpg"),
   },
   {
     id: 3,
     title: "Tech Innovations",
-    summary: "Some quick example text to build on the card title...",
+    summary: "as we are in 2024 the tech innovations play very important role ",
     content: "This is the full content for the Tech Innovations blog post.",
     image: require("../images/blogimg3.jpg"),
   },

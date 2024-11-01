@@ -107,3 +107,51 @@
   color: #ffffff;
 }
 
+
+/* Ethical hacking page styling */
+.container1 {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #3c5a3f;
+}
+
+p, ul, ol {
+  margin-bottom: 1rem;
+}
+
+
+/* dark mode text color of the dropdown menu */
+
+/* Dropdown styling for dark mode */
+.dropdown-menu.dropdown-dark {
+  background-color: #333; /* Dark background for dropdown */
+}
+
+.dropdown-menu.dropdown-dark .dropdown-item {
+  color: #000; /* Black text color for better readability */
+}
+
+.dropdown-menu.dropdown-dark .dropdown-item:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  color: #fff; /* White text on hover for contrast */
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: #fff; /* White text for dropdown items in dark mode */
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+}
+
+.card-title{
+   color: black;
+}
+
+.card-text{
+
+  color: black;
+}

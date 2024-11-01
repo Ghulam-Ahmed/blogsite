@@ -51,24 +51,29 @@ export default function Navbar(props) {
               >
                 {props.Categories}
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul
+                className={`dropdown-menu ${
+                  darkMode ? "dropdown-menu-dark" : ""
+                }`}
+                aria-labelledby="navbarDropdown"
+              >
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/ethical-hacking">
                     Ethical Hacking
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
+                  <Link className="dropdown-item" to="/cyber-crime">
                     Cyber Crime
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/">
-                    Best practices to avoid Cyber crime
-                  </a>
+                  <Link className="dropdown-item" to="/best-practices">
+                    Best Practices to Avoid Cyber Crime
+                  </Link>
                 </li>
               </ul>
             </li>
