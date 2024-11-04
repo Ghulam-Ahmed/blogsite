@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import blogData from "../components/blogData"; // Import the blog data
+import blogData from "../components/blogData"; // Importing the blog data
 
 const Blog = () => {
   const [selectedPost, setSelectedPost] = useState(null);
