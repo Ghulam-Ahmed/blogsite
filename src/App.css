@@ -1,0 +1,132 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.carousel {
+  height: 1000px;
+  width: 1200px;
+  margin: 0 auto; /* Center the carousel */
+  margin-top: 10px;
+}
+
+.carousel-image {
+  height: 1000px;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  border-radius: 8px; /* Optional: rounded edges */
+  padding: 10px; /* Adds space around images */
+}
+/* In your CSS file */
+
+.blog-card img, .blog-content img {
+  width: 100%; /* Adjust this as needed */
+  max-width: 300px; /* Ensures a consistent size */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Crops image if necessary to fill the area */
+}
+
+/* Global dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Optional: Specific styles for dark mode */
+.dark-mode .navbar {
+  background-color: #333333;
+}
+
+.dark-mode .navbar a {
+  color: #ffffff;
+}
+
+
+/* Ethical hacking */
+.container1 {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #3c5a3f;
+}
+
+p, ul, ol {
+  margin-bottom: 1rem;
+}
+
+
+
+/* dropdown style */
+
+.dropdown-menu.dropdown-dark {
+  background-color: #333; /* Dark background for dropdown */
+}
+
+.dropdown-menu.dropdown-dark .dropdown-item {
+  color: #000; /* Black text color for better readability */
+}
+
+.dropdown-menu.dropdown-dark .dropdown-item:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+  color: #fff; /* White text on hover for contrast */
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: #fff; /* White text for dropdown items in dark mode */
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly lighter background on hover */
+}
+
+.card-title{
+   color: black;
+}
+
+.card-text{
+
+  color: black;
+}
+
+.IncButton{
+  padding: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.inc-btn{
+  background-color: black;
+  color: #fff;
+  height: 50px;
+
+}
